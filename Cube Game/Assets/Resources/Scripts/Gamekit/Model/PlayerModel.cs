@@ -1,8 +1,6 @@
-﻿using Resources.Scripts.Gamekit.Model;
-using UnityEngine;
-using UnityEngine.Serialization;
+﻿using UnityEngine;
 
-namespace Resources.Scripts.Model
+namespace Resources.Scripts.Gamekit.Model
 {
     public class PlayerModel : GameModel
     {

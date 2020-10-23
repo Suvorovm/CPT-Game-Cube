@@ -1,6 +1,4 @@
-﻿using System;
-using Resources.Scripts.Gamekit.Model;
-using Resources.Scripts.Model;
+﻿using Resources.Scripts.Gamekit.Model;
 using UnityEngine;
 
 namespace Resources.Scripts.Gamekit.Controller
@@ -8,7 +6,6 @@ namespace Resources.Scripts.Gamekit.Controller
     public class GateController : MonoBehaviour, Initializable
     {
         private static readonly int GATE_PARAMETER = Animator.StringToHash("gateParameter");
-        private const string ANIMATION_TIME = "gateAnimation";
         private int _timeOut;
         private bool _activated;
 
