@@ -1,4 +1,5 @@
-﻿using Resources.Scripts.Gamekit.Service;
+﻿using JetBrains.Annotations;
+using Resources.Scripts.Gamekit.Service;
 using UnityEngine;
 
 namespace Resources.Scripts
@@ -19,7 +20,8 @@ namespace Resources.Scripts
             gameWorldService.Configure();
         }
 
-        private void Restart()
+        [PublicAPI]
+        public void Restart()
         {
             Destroy(_container);
             StartGame();
