@@ -4,7 +4,6 @@ using System.Linq;
 using JetBrains.Annotations;
 using Resources.Scripts.Gamekit.Controller;
 using Resources.Scripts.Gamekit.Model;
-using Resources.Scripts.Model;
 using UnityEngine;
 using Object = UnityEngine.Object;
 

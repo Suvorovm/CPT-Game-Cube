@@ -1,13 +1,12 @@
 ﻿using Resources.Scripts.Gamekit.Model;
-using Resources.Scripts.Model;
 using UnityEngine;
 
 namespace Resources.Scripts.Gamekit.Controller
 {
     public class PlayerController : MonoBehaviour, Initializable
     {
-        private float _moveSpeed = 5;
-        private float _rotateSpeed = 2;
+        private float _moveSpeed;
+        private float _rotateSpeed;
 
         public void Init(GameModel gameModel)
         {

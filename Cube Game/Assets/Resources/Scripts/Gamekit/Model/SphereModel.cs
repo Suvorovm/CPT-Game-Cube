@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Resources.Scripts.Gamekit.Model
+﻿namespace Resources.Scripts.Gamekit.Model
 {
     public class SphereModel : GameModel
     {
